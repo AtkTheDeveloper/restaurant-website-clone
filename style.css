@@ -134,3 +134,47 @@ body{
     color: black;
     transform: scale(1.1);
 }
+/* Recommendation Section */
+.recommendation{
+    background-color: #1a1a1a;
+}
+.recommendation .container{
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.recommendation-text{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.top h2{
+    color: white;
+    font-size: 50px;
+    padding-bottom: 16px;
+}
+.top p{
+    width: 700px;
+    color: white;
+    font-size: 20px;
+}
+.chef-container{
+    display: flex;
+    gap: 50px;
+}
+.chef-list h3{
+    color: #FF6500;
+    margin-bottom: 16px;
+}
+.list-item{
+    color: white;
+}
+.list-item ul li{
+    padding-bottom: 10px;
+}
+.recommendation-img img{
+    width: 300px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
