@@ -89,3 +89,48 @@ body{
     background-color: #FF6500;
     transform: scale(1.1);
 }
+
+/* About Section */
+.about-section{
+    padding: 30px;
+    background-color: #f6e5da9f;
+}
+.about-section .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.abt-image img{
+    width: 550px;
+}
+.abt-text h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.abt-text p{
+    font-size: 20px;
+    line-height: 2;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.abt-links{
+    display: flex;
+    gap: 15px;
+}
+.abt-links a{
+    text-decoration: none;
+    color: white;
+    background-color: #FF6500;
+    border: 1px solid white;
+    padding: 7px 10px;
+    border-radius: 10px;
+    font-weight: 700;
+    transition: all 0.5s ease-in-out;
+}
+.abt-links a:hover{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+    transform: scale(1.1);
+}
