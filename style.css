@@ -47,6 +47,12 @@ body{
 .navbar nav ul li a:hover{
     color: #FF6500;
 }
+.navbar nav ul li a.active{
+    color: #FF6500;
+}
+.navbar nav ul li a.active:hover{
+    color: #fff;
+}
 .header-text{
     margin: 150px auto;
 }
