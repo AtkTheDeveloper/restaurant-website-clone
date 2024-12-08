@@ -95,6 +95,11 @@ body{
 }
 .abt-image img{
     width: 550px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+.abt-image img:hover{
+    transform: scale(1.1);
 }
 .abt-text h2{
     font-size: 40px;
@@ -170,6 +175,11 @@ body{
     width: 300px;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+.recommendation-img img:hover{
+    transform: scale(1.1);
 }
 /* Testimonial Section */
 .testimonial{
@@ -195,6 +205,11 @@ body{
     width: 270px;
     border-radius: 10px;
     height: 450px;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.1);
 }
 .card img{
     margin: 0 auto;
