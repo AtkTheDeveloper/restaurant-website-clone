@@ -3,7 +3,7 @@ This is a practice restaurant website I made as a clone of someone's project web
 
 ## Overview
 This is site was made with plain HTML and CSS. No JavaScript. I used Flexbox for the alignment.
-No Grid. <strong>"The links on the entire page do not go anywhere."</strong>
+No Grid. <strong>"Some links on the entire page do not go anywhere."</strong>
 
 ## Live Link
 https://atkthedeveloper.github.io/restaurant-website-clone/
