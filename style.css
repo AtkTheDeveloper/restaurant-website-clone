@@ -338,3 +338,103 @@ body{
     font-weight: 700;
     font-size: 20px;
 }
+/* Media Queries */
+@media screen and (max-width: 769px){
+    .container{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .header{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .logo img{
+        width: 200px;
+    }
+    .navbar{
+        background-color: #1c1917;
+        padding: 4px;
+        border-radius: 6px;
+    }
+    .navbar nav ul li a{
+        font-size: 16px;
+    }
+    .header-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .header-text h1{
+        font-size: 40px;
+    }
+    .header-text h3{
+        font-size: 16px;
+    }
+    .about-section .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .abt-image img{
+        width: 500px;
+        padding-bottom: 20px;
+    }
+    .abt-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .abt-text h2{
+        font-size: 30px;
+    }
+    .abt-text p{
+        font-size: 16px;
+    }
+    .recommendation .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 60px;
+    }
+    .top h2{
+        font-size: 40px;
+    }
+    .top p{
+        font-size: 16px;
+    }
+    .chef-list h3{
+        font-size: 20px;
+    }
+    .list-item ul li{
+        font-size: 16px;
+    }
+    .card h3, 
+    .card h4{
+        font-size: 20px;
+    }
+    .card p{
+        font-size: 14px;
+    }
+    .contact-card h2{
+        font-size: 20px;
+    }
+    .newsletter input{
+        font-size: 16px;
+    }
+    .newsletter a{
+        font-size: 16px;
+    }
+    .footer-link nav ul li a{
+        font-size: 16px;
+    }
+    .footer-link .owner{
+        font-size: 16px;
+    }
+}
