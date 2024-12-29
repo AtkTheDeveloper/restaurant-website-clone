@@ -340,6 +340,9 @@ body{
 }
 /* Media Queries */
 @media screen and (max-width: 769px){
+    .hero-section{
+        height: 100vh;
+    }
     .container{
         width: 100%;
         padding: 0 20px;
@@ -365,12 +368,14 @@ body{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        gap: 10px;
     }
     .header-text h1{
-        font-size: 40px;
+        font-size: 60px;
+        text-align: center;
     }
     .header-text h3{
-        font-size: 16px;
+        font-size: 20px;
     }
     .about-section .container{
         display: flex;
@@ -389,6 +394,7 @@ body{
         align-items: center;
         justify-content: center;
         text-align: center;
+        margin-bottom: 20px;
     }
     .abt-text h2{
         font-size: 30px;
